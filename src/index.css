@@ -1,0 +1,24 @@
+
+.navbar {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar > ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  font-size: 20px;
+}
+
+.navbar > ul > li > a {
+  text-decoration: none;
+  color: #000;
+  transition: all .4s ease-in-out;
+}
+
+.navbar > ul > li > a:active {
+  text-decoration: underline;
+}
